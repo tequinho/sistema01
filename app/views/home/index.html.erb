@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+    <%= stylesheet_link_tag 'estilo', media: 'all', 'data-turbolinks-track': 'reload' %>
+<body>
+<div class="estilo">
+<!-- Inicio do carrosel -->
+  <div class="estilo">
+        <div class="carousel slide" data-ride="carousel" id="galeria">
+            <ol class="carousel-indicators">
+                <li data-target="#galeria" data-slide-to="0" class="active"></li>
+                <li data-target="#galeria" data-slide-to="1" ></li>
+                <li data-target="#galeria" data-slide-to="2" ></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                   <!-- <img src="img/w3.jpg" class="img-responsive">-->
+                    <%= image_tag("img/w3.jpg", :class => "img-responsive") %>
+                </div>
+                <div class="item">
+                    <!--<img src="img/ft2019.jpg" class="img-responsive">-->
+                     <%= image_tag("img/ft2019.jpg", :class => "img-responsive") %>
+                </div>
+                <div class="item">
+                    <!--<img src="img/fruit.png" class="img-responsive">-->
+                     <%= image_tag("img/fruit.png", :class => "img-responsive") %>
+                </div>  
+            </div>
+            
+            <a class="left carousel-control"
+               href="#galeria" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control"
+               href="#galeria" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>  
+        </div>     
+<!-- Fim do carrosel -->
+<!-- Primeira Section -->
+       <section class="container-fluid bemvindo">
+        <h4>Lugar de Recomeços e Sonhos</h4>
+        <h1><strong>bem-vindo à sua casa</strong></h1>
+        <p><strong>MISSÃO:</strong> Tornar pessoas em verdadeiros discípulos de Jesus, glorificando a Deus em tudo o que vivem.</p>
+        <p><strong>VISÃO::</strong> Ser uma comunidade Cristã inovadora, útil à sociedade, que adora ao Senhor em Espírito e em verdade, ensina para transformação, e gera ministros eficazes que priorizam a evangelização e a comunhão em células.</p>
+        <p><strong>VALORES::</strong> Em que acreditamos? Valores são um conjunto de princípios que determinam nossa atitude no cumprimento da nossa missão. Nossos valores são definidos à luz da Palavra de Deus e do contexto no qual estamos inseridos.</p>      
+      </section> 
+<!-- Fim da section --> 
+	
+        
+<!-- COLUNAS -->
+        <section class="container-fluid icons">
+        <div class="container">
+        	<div class="row">
+            <div class="col-md-4">
+             <!--   <img class="img-responsive coluna" src="img/faith.png"> -->
+                <%= image_tag("img/faith.png", :class => "img-responsive coluna") %>
+                <h1>FAITH</h1>
+            </div>
+            <div class="col-md-4">
+				    <!--<img class="img-responsive coluna" src="img/hope.png">-->
+				<%= image_tag("img/hope.png", :class => "img-responsive coluna") %>
+                <h1>HOPE</h1>
+            </div>
+            <div class="col-md-4">
+				<!-- <img class="img-responsive coluna" src="img/love.png"> -->
+				 <%= image_tag("img/hope.png", :class => "img-responsive coluna") %>
+                <h1>Love</h1>
+            </div>
+            </div>   
+        </div>
+        </section>
+
+<!-- Fim das colunas -->
+		
+		
+<!-- Inicio do textopastor -->
+		<section class="container-fluid textopastor">
+			<div class="row">
+			
+		     <div class="col-md-6">
+                <!-- <img class="img-responsive coluna pastor" src="img/pastor.png"> -->
+                <%= image_tag("img/pastor.png", :class => "img-responsive coluna pastor") %>
+            </div>
+			<div class="col-md-6 ">
+				<h3>Mensagem do Nosso pastor</h3>
+                <p class="texto">
+				Querido, a Igreja Batista Atitude Central da Barra é uma comunidade fraterna, amiga, visionária e desejosa de viver mais de Deus e Sua vontade em tudo o que faz. Cremos no esforço do homem, mas confiamos no poder de Deus. Temos visto esse poder agindo sobre casamentos restaurados, trazendo sentido para a vida, dando direção para os jovens em meio às pressões cotidianas, prosperando pessoas financeiramente, libertando das enfermidades, concedendo dons para que sirvamos a Deus e, principalmente, concedendo salvação eterna. Fazemos isso através das células e ministérios à sua disposição. Que aqui na IBA você viva o melhor tempo de sua vida na presença gloriosa do Espírito Santo! Você é importante para a IBA,<br>
+				seja bem-vindo!<br>
+					<br>
+					<a href="pastores.html" class="btn btn-success ">Conheça nossos pastores</a>
+				</p>
+
+            </div>
+        </div>
+
+		</section>
+			
+
+<!-- Fim do textopastor -->
+		
+<!-- Inicio das datas dos cultos(Efeito parallax) -->
+		
+	<section class=" container-fluid horarioculto">
+			<h2>Dias e Horários <strong>dos Cultos</strong></h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+						<h1>Domingo</h1>
+						<p>9h-10h-Escola dominical<br>10h-12h-Culto</p>
+
+				</div>
+				<div class="col-lg-4">
+						<h1>Segunda</h1>
+						<p>19h-21h-Culto dos Homens<br>19h-21h-Culto das mulheres</p><br>
+						<h1>Terça</h1>
+						<p>19h-21h-Culto dos Adolescentes<br>19h-21h-Culto dos Jovens</p><br>
+
+				</div>	
+				<div class="col-lg-4">
+						<h1>Quarta</h1>
+						<p>19h-21h-Culto dos Culto de Oração<br>
+
+				</div>				
+			
+			</div>
+		
+		
+		</div>
+		
+		
+	</section>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+<!-- Fim das datas dos cultos(Efeito parallax) -->
+
+		
+<!--Inicio dos videos diarios -->
+		<section class="container-fluid videos">
+			<h3>Ultimas Pregações</h3>
+		
+			<div id="janela">
+				<ul>
+ 				</ul>	
+
+			</div>
+			<div class="mais">
+			<button type="button" class="btn btn-primary mais">Mais Pregações </button>
+			</div>
+			
+		</section>
+
+<!--Fim dos videos diarios !-->
+ 
+<!-- Pequenos Grupos !-->
+		<section class="pg">
+			<h2>Participe de um Pequeno Grupo</h2>
+			<div class="container">
+				
+					<p class="lead text-center">Centenas de pequenos grupos com certeza temos uma pertinho de você</p>
+					<p><a href="#" class="btn btn-success btn-md ">Mais Informações </a></p>
+				
+			</div>
+			
+		</section>
+<!-- Pequenos Grupos !-->
+		
+<!--Local da igreja e api do google maps !-->
+		<section class="container-fluid local">
+			<div class="row">
+			<div class="col-lg-6">
+				<h4>Venha nos visitar</h4>
+					<p class="lead"><i class="fa fa-map-marker"></i>Rua Frei Sampaio 605-Marechal Hermes,<br>Rio de Janeiro</p>
+					
+			</div>
+			<div class="col-lg-6">
+				<h4>Entre em Contato</h4>
+					<p class="lead"><i class="fa fa-phone"></i>      (21)3390-4846</p>
+
+		</div>	
+	</div>
+		</section>
+		
+<!--Local da igreja e api do google maps !-->	
+		
+		
+<!-- Footer !-->
+		<footer class="footer">
+				<div class="social-icons">
+					<a href="#"><i class="fa fa-facebook-square"></i></a>
+					<a href="#"><i class="fa fa-youtube-play"></i></a>
+					<a href="#"><i class="fa fa-google"></i></a>
+					<a href="#"><i class="fa fa-envelope"></i></a>
+				</div>
+				<p class="copyright">Copyright @ Ibca Church 2019.Todos direitos reservados</p>
+		</footer>
+<!-- Footer !-->
+</div>
+        <!-- Digite abaixo seu codigo -->
+       
+        <!-- Fim do seu codigo -->
+		
+</body>
+</html>

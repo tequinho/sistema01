@@ -1,0 +1,327 @@
+ /*
+ *= require bootstrap/dist/css/bootstrap
+ *= require jquery-fancybox/source/scss/jquery.fancybox
+ *= require font-awesome/css/font-awesome
+ */
+
+
+body{
+   font-family: 'Roboto', sans-serif;
+	width: 100%;
+	margin:0px auto;
+	padding:0px;
+
+}
+section{
+    padding-top:80px;
+    height: 45vh;
+}
+
+.navbar-default{
+    background-color:white;
+}
+.navbar-header > img{
+    width: 200;
+    height: 61.594;
+    padding-top: 7px;
+}
+#menucombt{
+    padding-top:15px;
+    
+}
+
+/*MENU*/
+
+/*NOssa missao*/
+
+.missao{
+	height: auto;
+	padding-bottom: 150px;
+}
+
+.missao h1{
+	font-style: normal;
+font-size: 40px;
+font-family: 'Open Sans', sans-serif;
+color: rgb(67, 79, 91);
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+padding-bottom: 30px;
+
+}
+
+.missao p{
+	color: rgb(124, 124, 124);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 800px; 
+	margin: 0.925em auto 0px; 
+	font-size: 21px;
+}
+
+/*missao*/
+
+/*foto cidade*/
+.cidade{
+	background-image: url("sobre.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	background-attachment: fixed;
+	padding-top: 0px;
+	height: auto;
+}
+
+.to{
+ text-align: center;
+ color:white;
+ opacity: 0.5;
+
+text-align: center;
+padding-left: 0px;
+padding-right: 0px;
+padding-bottom: 100px;
+padding-top: 100px;
+margin: 0px auto;
+ 
+}
+
+.you{
+	background-size: cover;
+	background-color: rgb(97,144,162,0.75);
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+
+	 color:white;
+ 	opacity: 0.5;
+}
+.him{
+	text-align: center;
+
+
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+
+	 color:white;
+ 	opacity: 0.5;
+}
+
+/*foto cidade*/
+
+/*Texto o que acreditamos */
+.oqueacreditamos{
+	height: auto;
+	padding-bottom: 150px;
+}
+
+.oqueacreditamos h1{
+	font-style: normal;
+font-size: 40px;
+font-family: 'Open Sans', sans-serif;
+color: rgb(67, 79, 91);
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+padding-bottom: 30px;
+}
+
+
+.oqueacreditamos p{
+		color: rgb(124, 124, 124);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 800px; 
+	margin: 0.925em auto 0px; 
+	font-size: 21px;
+}
+
+/*Texto o que acreditamos */
+
+
+
+/*Foto amando pessoas */
+.amandopessoas{
+	background-image: url("amando.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	padding-bottom: 200px;
+	background-attachment: fixed;
+	
+}
+.amandopessoas h3{
+	padding-top: 25px;
+	font-size: 30px; 
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	opacity: 0.25;
+}
+
+/*Foto amando pessoas */
+/*Texto nossos pastores */
+.nossospastores{
+	height: auto;
+	padding-bottom: 150px;
+}
+
+.nossospastores h1{
+	font-style: normal;
+font-size: 48px;
+font-family: 'Open Sans', sans-serif;
+color: rgb(67, 79, 91);
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+padding-bottom: 30px;
+}
+
+
+.nossospastores p{
+		color: rgb(124, 124, 124);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 800px; 
+	margin: 0.925em auto 0px; 
+	font-size: 21px;
+}
+/*Texto nossos pastores */
+
+
+
+/*ap*/
+.p1{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	height: auto;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.pp1 img{
+	border-radius: 10px;
+	 margin: 0 auto;
+}
+.p2{
+	padding-bottom: 100px;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.pp2 img{
+	border-radius: 10px;
+	 margin: 0 auto;
+}
+.p3{
+	padding-bottom: 100px;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.pp3 img{
+	border-radius: 10px;
+	 margin: 0 auto;
+}
+.p4{
+	padding-bottom: 100px;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.pp4 img{
+	border-radius: 10px;
+	 margin: 0 auto;
+}
+.p5{
+	padding-bottom: 50px;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.pp5 img{
+	border-radius: 10px;
+	 margin: 0 auto;
+}
+/*ap*/
+
+/*Pre footer */
+.prefooter{
+  background-color: #6190a2;
+  text-align: center;
+  height:300px;
+}
+
+.prefooter h1{
+  color: #ffffff;
+}
+
+.prefooter p{
+  color: #ffffff;
+}
+
+
+
+/*Pre footer */
+
+
+/*Footer*/
+.footer{
+	widows: 100%;
+	padding: 3% 4%;
+	text-align: center;
+	
+}
+.social-icons{
+	font-size: 2.5em;
+	color: rgba(255,255,255,0.7);
+	margin-left:10px;
+}
+.social-icons a{
+	align-items: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.footer p{
+	font-family: cursive;
+}
+/*Footer*/
+
+.modal {
+  text-align: center;
+}
+.modal-title{
+	font-family: 'Charm';
+
+}
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

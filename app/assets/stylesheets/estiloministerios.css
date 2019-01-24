@@ -1,0 +1,180 @@
+ /*
+ *= require bootstrap/dist/css/bootstrap
+ *= require jquery-fancybox/source/scss/jquery.fancybox
+ *= require font-awesome/css/font-awesome
+ */
+
+  body{
+   font-family: 'Roboto', sans-serif;
+	width: 100%;
+
+  }
+  section{
+      padding-top:80px;
+     height: 45vh;
+  }
+
+.navbar-default{
+    background-color:white;
+}
+.navbar-header > img{
+    width: 200;
+    height: 61.594;
+    padding-top: 7px;
+}
+#menucombt{
+    padding-top:15px;
+    
+}
+
+/*MENU*/
+
+/*Banner Inicial */
+.ministeriofoto{
+    background-image: url("ministerioos.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  background-attachment: fixed;
+  height: 350px;
+}
+.ministeriofoto h1{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+  }
+/*Banner Inicial */
+
+.apresentacaoministerio{
+	height: auto;
+  background-color: #f7a145;
+}
+.apresentacaoministerio h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-family: 'Charm', sans-serif;
+}
+
+.apresentacaoministerio p{
+    text-align: center;
+    padding:20px;
+    font-size: 15px; 
+    font-family: 'Open Sans', sans-serif;
+    color:#ffffff;
+}
+
+.mfotos{
+  padding-top: 100px;
+}
+.col-lg-6{
+		padding-bottom: 20px;
+		text-align: center;
+}
+.col-lg-6 img{
+	border-radius: 10px;
+	width: 544px;
+	height: 136px;
+}
+.col-lg-6 h5{
+	color: rgb(173, 125, 14);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+.btn {
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+ 
+  font-size: 12px;
+  cursor: pointer;
+  border-top-left-radius: 37.3px;
+  border-top-right-radius: 37.3px; 
+  border-bottom-left-radius: 37.3px;
+  border-bottom-right-radius: 37.3px;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*Pre footer */
+.prefooter{
+  background-color: #6190a2;
+  text-align: center;
+  height:300px;
+}
+
+.prefooter h1{
+  color: #ffffff;
+}
+
+.prefooter p{
+  color: #ffffff;
+}
+
+
+
+/*Pre footer */
+
+/*Footer*/
+.footer{
+	widows: 100%;
+	padding: 3% 4%;
+	text-align: center;
+	
+}
+.social-icons{
+	font-size: 2.5em;
+	color: rgba(255,255,255,0.7);
+	margin-left:10px;
+}
+.social-icons a{
+	align-items: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.footer p{
+	font-family: cursive;
+}
+
+
+.modal {
+  text-align: center;
+
+}
+.modal-content{
+  background-color: #add8e6;
+}
+.modal-title{
+	font-family: 'Charm';
+
+}
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     
+
+     <link href="https://fonts.googleapis.com/css?family=Charm|Roboto" rel="stylesheet">
+ 
+  </head>
+
+  <body>
+    <!-- Inicio do menu -->
+        <div class="container">
+           <nav class="navbar navbar-default">
+             <div class="navbar-header">
+                <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#movelmenu"
+                    aria-expamded="false">
+               
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+               </button>
+                <h1>Minha Logo</h1>
+            </div>
+       
+             <div class="collapse navbar-collapse pull-right" id="movelmenu">
+                 <div id="menucombt">
+                 <ul class="nav navbar-nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#">A Igreja</a></li>
+                    <li><a href="ministerios.html">Departamentos</a></li>
+                    <li><a href="#">Contato</a></li>
+          <li><a href="pastores.html">Pastores</a></li>
+           <li><a href="#">Pedidos de Oração</a></li>
+                </ul>
+                <button type="button" class="btn btn-primary navbar-btn">DOE</button>
+                </div>
+             </div>
+            </nav>
+            
+        </div>
+<!-- Fim do menu -->
+        
+    <%= yield %>
+       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </body>
+</html>

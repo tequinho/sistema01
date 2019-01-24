@@ -1,0 +1,289 @@
+ /*
+ *= require bootstrap/dist/css/bootstrap
+ *= require jquery-fancybox/source/scss/jquery.fancybox
+ *= require font-awesome/css/font-awesome
+ */
+	.navbar-default{
+    background-color:white;
+	}
+	.coluna{
+    width:120px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+.col-md-4 > h1{
+    font-family: 'Charm', cursive;
+}
+
+li{
+    padding-right: 30px;
+}
+    div.carousel-inner {
+        width: 100%;
+        max-height: 500px;
+    }
+img {
+        width: 100%;
+        height: 100%;
+    }
+section{
+    padding-top:80px;
+    height: 45vh;
+}
+.sessao{
+    padding-top: 90px;
+}
+
+.bemvindo{
+	height: auto;	
+}
+.container-fluid h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #aeaeae;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+h1,h3,h2{
+   text-align: center; 
+   text-transform: uppercase; 
+}
+p{
+    text-align: center;
+    padding:20px;
+    font-size: 15px;
+    
+}
+.navbar-header > img{
+    width: 200;
+    height: 61.594;
+    padding-top: 7px;
+}
+#menucombt{
+    padding-top:15px;
+    
+}
+.col-md-4{
+    height: 40vh;
+    text-align: center;
+}
+
+.icons{
+	height: auto;
+}
+.pastor{
+	height: 428.31px;
+	width:300px;
+}
+.texto{
+	font-size: 14px;
+	text-align: left;
+	color: #616161;
+	line-height: 1.8;
+	margin: 0 0 20px 0;
+	font-family: 'Roboto', sans-serif;
+}
+.textopastor{
+	padding-top: 0px;
+	padding-bottom: 100px;
+	height: auto;
+}
+
+
+
+
+.textofoto p{
+	font-size: 20px;
+}
+.titulo h1{
+	padding-bottom:15px;
+}
+
+/*Data dos cultos parallax efect */
+.horarioculto{	
+	background-image: url("worship8.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+
+	height: auto;
+}
+.horarioculto h2{
+	padding-top:0px;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+.horarioculto h1{
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+.horarioculto p{
+	font-size: 21px;
+	text-align: center;
+}
+
+
+
+
+
+/*Data dos cultos parallax efect */
+
+/* YOUTUBEEE */
+            div#janela ul  {
+                width:1090px;
+                margin:0 auto;
+                padding:0;
+            }
+            
+            div#janela ul li.principal {
+				position: relative;
+                list-style: none;
+                display: inline-block;
+                margin: 20px;
+				cursor: pointer;
+				width: 320px;
+				height: 180px;
+            } 
+			div#janela ul li.principal div.foto{
+				position: absolute;
+				top:0;
+				left: 0;
+				width: 320px;
+				height: 180px;
+				z-index:1;
+				clip:rect(0 320 180 0);
+			}
+			div#janela ul li.principal div.foto div.legenda{
+				position: absolute;
+				top: 150px;
+				left: 0;
+				width: 320px;
+				height: 150px;
+				padding: 5px;
+				z-index: 2;
+				cursor: pointer;
+				background-color: #000;
+				opacity:0.7;
+				
+				-webkit-transition:all 0.5s ease-out 0s;
+				-moz-transition:all 0.5s ease-out 0s;
+				-ms-transition:all 0.5s ease-out 0s;
+				-o-transition:all 0.5s ease-out 0s;
+				transition:all 0.5s ease-out 0s;
+			}
+			div#janela ul li.principal div.foto div.legenda:hover{
+				top:50px;
+			}
+			div#janela ul li.principal div.foto div.legenda h5{
+				font-family: sans-serif;
+				text-transform: uppercase;
+				font-weight: 100;
+				color: aqua;
+				margin: 0;
+			}
+			div#janela ul li.principal div.foto div.legenda p{
+				font-family: sans-serif;
+				font-size:1em;
+				color:aliceblue;
+				text-align: left;
+			}
+			.videos{
+				padding-top:100px;
+				height: auto;
+				background-color: #ececec;
+				padding-bottom: 50px;
+
+			}
+
+			.videos h3{
+			
+				text-align: center;
+				text-transform: uppercase;
+				color: #aeaeae;
+				font-weight: 400;
+				letter-spacing: 10px;
+
+			}
+			.mais{
+				text-align: center;
+				margin-top: 10px;
+				padding: 10px;
+
+			}
+.pg{
+	background-image: url("pg.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	padding-top:150px;
+	padding-bottom: 438px;
+	background-attachment: fixed;
+
+}
+.pg h2{
+	font-size: 25px; 
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+.local{
+	background-color: black;
+}
+.col-lg-6 h4{
+	font-family: serif;
+	color: white;
+}
+.col-lg-6 p{
+	font-family: serif;
+	color: white;
+}
+.local i{
+	align-items: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 1.7em;
+	color: rgba(255,255,255,0);
+	}
+.fa fa-phone{
+	text-align:left;
+}
+/*Footer*/
+.footer{
+	widows: 100%;
+	padding: 3% 4%;
+	text-align: center;
+	
+}
+.social-icons{
+	font-size: 2.5em;
+	color: rgba(255,255,255,0.7);
+	margin-left:10px;
+}
+.social-icons a{
+	align-items: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.footer p{
+	font-family: cursive;
+}
+/*Footer*/
+
+/* yOOOOOOOOOTUBBEEE*/
+
+    @media (min-width: 1170) {
+    	div.carousel-inner {
+    	    max-height: 850px;
+    	}
+	}	

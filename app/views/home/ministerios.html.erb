@@ -1,0 +1,120 @@
+<html>
+
+<%= stylesheet_link_tag 'estiloministerios', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <body>
+
+
+<!-- Foto inicial -->
+        <section class="container-fluid ministeriofoto">
+                    <h1>No Problem is too Great<br>to Place in Gods <br>Hands </h1>            
+        </section>
+
+<!-- Banner Inicial -->
+
+<!-- Texto inicial -->
+    <section class="container-fluid apresentacaoministerio">
+        
+        <h3><strong>Nossos Ministérios</strong></h3>
+        <p> to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,<br> from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>      
+    </section> 
+<!-- Texto inicial -->
+
+<!-- Ministerios -->
+    <div class="container mfotos">
+        <div class="row">
+        <div class="col-lg-6">
+            <%= image_tag("img/familia.jpg", :class => "img-responsive") %>
+            <h5>Familia</h5>
+            <p><a href="#" class=" btn success" data-toggle="modal" data-target="#m1">Ver Mais </a></p>
+        </div>
+            <div class="col-lg-6">
+           
+            <%= image_tag("img/homens.jpg", :class => "img-responsive") %>
+            <h5>Homens</h5>
+            <p><a href="#" class="btn btn-success  " data-toggle="modal" data-target="#m1">Ver Mais </a></p>
+        </div>  
+            <div class="col-lg-6">
+        
+            <%= image_tag("img/mulheres.jpg", :class => "img-responsive") %>
+            <h5>Mulheres</h5>
+            <p><a href="#" class=" btn btn-success  " data-toggle="modal" data-target="#m1">Ver Mais </a></p>
+        </div>   
+            <div class="col-lg-6">
+           
+            <%= image_tag("img/missoes.jpg", :class => "img-responsive") %>
+            <h5>Missão</h5>
+            <p><a href="#" class=" btn btn-success" data-toggle="modal" data-target="#m1">Ver Mais </a></p>
+        </div>         
+
+    </div>
+    </div>
+
+
+
+<!-- Ministerios -->
+
+
+<!--Pre footer -->
+<section class="container-fluid prefooter">
+    
+        <h1>Want to worship with us?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium, nisi ut volutpat mollis, leo risus interdum arcu, eget facilisis quam felis id mauris. Ut convallis, lacus nec ornare volutpat, velit turpis scelerisque purus, quis mollis velit purus ac massa. Fusce quis urna metus. Donec et lacus et sem lacinia cursus.</p>
+</section>
+
+
+<!--Pre footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <!-- Footer !-->
+        <footer class="footer">
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </div>
+                <p class="copyright">Copyright @ Ibca Church 2019.Todos direitos reservados</p>
+        </footer>
+<!-- Footer !-->
+        
+<!-- Modal 1 !-->   
+ <div class ="modal fade" id="m1" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Familia</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+    
+        </div>
+     
+    </div>  
+     
+</div>
+
+
+<!-- Modal 1!-->
+
+</body>
+  </html>
