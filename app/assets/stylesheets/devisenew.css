@@ -1,0 +1,17 @@
+ /*
+ *= require bootstrap/dist/css/bootstrap
+ *= require jquery-fancybox/source/scss/jquery.fancybox
+ *= require font-awesome/css/font-awesome
+ */
+
+
+
+/* BASIC */
+
+.login{
+	text-align: center;
+	padding-top: 20px;
+}
+.field{
+	padding-bottom: 15px;
+}
